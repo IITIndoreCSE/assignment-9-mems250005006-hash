@@ -1,3 +1,11 @@
+
+#include<iostream>
+using namespace std;
+
+struct Color {
+    int red , green, blue;
+};
+
 int main(){
     Color colors[5];
     colors[0].red = 100;
@@ -32,4 +40,3 @@ int main(){
     }
 return 0;
 }
-
